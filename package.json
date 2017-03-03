@@ -1,6 +1,6 @@
 {
   "name": "ng-copytoclipboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Directive copy to clipboard",
   "main": "app.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/toedio/ng-copyToClipboard.git"
+  },
+  "dependencies": {
+    "angular": "^1.2.x"
   },
   "keywords": [
     "Angular JS",
@@ -21,6 +24,13 @@
     "url": "https://github.com/toedio/ng-copyToClipboard/issues"
   },
   "homepage": "https://github.com/toedio/ng-copyToClipboard#readme",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
