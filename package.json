@@ -1,6 +1,6 @@
 {
   "name": "ng-copytoclipboard",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Directive copy to clipboard",
   "main": "app.js",
   "scripts": {
