@@ -1,8 +1,8 @@
 (function() {
     'use strict';
     angular
-        .module('ng-copyToClipboard', [])
-        .directive('ng-copyToClipboard', '$window', ngCopyToClipboard);
+        .module('ngCopyToClipboard', [])
+        .directive('ngCopyToClipboard', ngCopyToClipboard);
 
     function ngCopyToClipboard ($window) 
     {
@@ -36,8 +36,7 @@
                     afterCopy: '&'
                 },
                 link: function (scope, element, attrs) 
-                {
-                    console.log(scope);
+                {                    
                     element.bind('click', function (e) 
                     {                	
                         try 
@@ -50,8 +49,6 @@
                         }
                     });
                 }
-            };
-        
+            };        
     };
-
 })();
