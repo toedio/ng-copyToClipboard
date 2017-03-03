@@ -34,10 +34,10 @@ bower install --save ng-copyToClipboard
 var app = angular.module('app', ['ngCopyToClipboard']);
 ```
 
-<!--#### NPM:
+#### NPM:
 - Run
 ```bash
-npm install --save ng-copyToClipboard
+npm install --save ng-copytoclipboard
 ```
 
 - HTML:
@@ -52,7 +52,7 @@ npm install --save ng-copyToClipboard
 ```javascript
 var app = angular.module('app', ['ngCopyToClipboard']);
 ```
--->
+
 
 ## How to use it
 
