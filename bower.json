@@ -1,0 +1,26 @@
+{
+  "name": "ng-copyToClipboard",
+  "version": "0.0.0",
+  "authors": [
+    "Victor Ferreira da Silva <toedio@yahoo.com.br>"
+  ],
+  "description": "Directive copy to clipboard",
+  "main": "app.js",
+  "keywords": [
+    "Angular JS",
+    "Directive",
+    "Copy to clipboard"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/toedio/ng-copyToClipboard",
+  "dependencies": {
+    "angular": "^1.2.x"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
